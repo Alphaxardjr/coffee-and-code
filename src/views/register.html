@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="css/login_signup.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <main class="main">
+        <h1 class="form-title">sign up</h1>
+        <p class="form-para">Let's get started</p>
+        <form id="myform"  class="myform" >
+            <input type="text" 
+                name="name" 
+                id="name" 
+                placeholder="Entername"
+                class="form-input"
+
+                onkeyup="nameValidation()"
+                >
+            <input 
+                type="email" 
+                id="email" name="email" 
+                placeholder="Enter Email"
+                class="form-input"
+            >
+
+            <input 
+                type="password" name="" 
+                id="password" 
+                placeholder="Enter password"
+                class="form-input"
+            >
+            <div>
+                <h2 class="form-headings">Choose the language(s) to learn</h2>
+
+                <input type="checkbox" id="html">
+                <label for="html">HTML</label>
+
+                <input type="checkbox" id="css">
+                <label for="css">CSS</label>
+
+                <input type="checkbox" id="js">
+                <label for="js">JS</label>
+            </div>
+            <button type="submit" id="submit-el">Submit</button>
+            <p class="forget-psd">Already have an account? <a href="">Log in</a></p>
+        
+            <div class="option">or</div>
+            <button>Sign up with Google</button>
+        </form>
+    </main>
+   
+</body>
+</html>

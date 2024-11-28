@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f0f8ff, #e6e9ff);
+    font-family: Arial, sans-serif;
+    color: #333;
+    overflow: hidden;
+}
+
+/* Headings */
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
+    color: #2a2a72;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* Joke Controls Styling */
+.joke-controls {
+    width: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input[type="range"] {
+    width: 200px;
+    height: 8px;
+    appearance: none;
+    background: #ddd;
+    border-radius: 4px;
+    outline: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #2a2a72;
+    cursor: pointer;
+}
+input[type="range"]::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #2a2a72;
+    cursor: pointer;
+}
+.generate-btn {
+    padding: 0.8rem 1.2rem;
+    background: #2a2a72;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.generate-btn:hover {
+    background: #444;
+}
+  .jokesContainer{
+    margin-top:1em;
+    width:400px;
+    font-size:1.2rem;
+    padding:1rem 1.2rem;
+    position:relative;
+    
+  }
+  .card-container{
+    position:absolute;
+    margin-bottom:1rem;
+    top:0;
+    left:0;
+    
+  }
+  
+  .joke-card{
+    border-radius:3px;
+    background-color:white;
+    position:relative;
+    height:400px;
+    overflow:hidden;
+     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16)
+    
+  }
+  .numbers{
+    background-color:red;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    position:absolute;
+    right:-15px;
+    top:-25px;
+    display:flex;  
+  }
+  .number{
+    margin:auto;
+    font-size:2rem;
+    font-weight:bolder;
+  }
+  
+  
+  .emonji{
+    font-size:4rem;
+    margin-left:10px;
+  }
+  
+  .card-content{
+    padding:1em;
+    font-size:1.4rem;
+    text-align:center;
+    height:150px;  
+  }
+  
+  .card-footer{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    
+  }
+  
+  .card-footer .img{
+    width:100px;
+    height:100px;
+    border-radius:61% 39% 51% 49% / 35% 44% 56% 65% ;
+    
+   
+    
+  }
+  img{
+    width:100%;
+   border-radius:61% 39% 51% 49% / 35% 44% 56% 65% ;
+    object-fit:cover;
+  }
+  
+  .cancel{
+    text-transform:capitalize;
+    padding:.3rem 0;
+    border-bottom:1px solid blue;
+     
+  }
+  

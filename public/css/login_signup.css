@@ -1,0 +1,112 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    padding: 0;
+    font-family: sans-serif;
+    display: grid;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(../images/scroll.jpg);
+    position:center;
+    background-color: #079bb6;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    border-radius:1rem;
+    width: 400px; 
+    padding: 2em;
+    background: white;
+    box-shadow:2px 2px 5px #344563 ;
+    height: auto;
+
+}
+.myform{
+    display: grid;
+    align-items: center;
+    gap: 1rem;
+      
+}
+.form-title{
+    color:#344563 ;
+    font-size: 1.7rem;
+    text-align: center;  
+    text-transform: capitalize;
+}
+
+.form-para{
+    font-size: 1.4;
+    text-align: center;
+    color: #c4c9d2;
+
+}
+
+.form-headings{
+    font-size: 1.3rem;
+}
+
+.form-input{
+    padding: .8rem 1rem;
+    font-size:1rem;
+    border-radius: .8rem;
+    border: .5px solid;
+}
+
+.myform button{
+    padding: .6em 2em;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #344563;
+    border-radius: .5rem;
+    color: white;
+}
+
+.forget-psd{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    margin: 0;
+}
+
+/* options stles */
+
+.option{
+    --line-height:2px;
+    --line-widht:45%;
+    --line-color:#e5e7ef;
+    position:relative; 
+    text-align: center; 
+    font-size: 1.3rem;
+    /* border: 1px solid red; */
+
+}
+
+
+.option::after{
+    position:absolute;
+    top: 50%;
+    left: 0;
+    content: " ";
+    background:var(--line-color);
+    height:var(--line-height);
+    width:var(--line-widht);
+}
+
+.option::before{
+    position:absolute;
+    top: 50%;
+    right: 0;
+    content: " ";
+    background:var(--line-color);
+    height:var(--line-height);
+    width:var(--line-widht);
+
+}
+
