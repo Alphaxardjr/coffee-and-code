@@ -24,7 +24,7 @@ Coding can be intense, but it’s also one of the most rewarding things. Pair it
 
 ## Getting Started
 It's super easy to get started:
-1. Clone this repo: `git clone https://github.com/your-repo/coffee-and-code.git](https://github.com/Alphaxardjr/coffee-and-code.git`
+1. Clone this repo: `git clone https://github.com/Alphaxardjr/coffee-and-code.git`
 2. Open `index.html` in your browser.
 3. Sip your coffee and explore!
 
